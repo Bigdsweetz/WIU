@@ -7,6 +7,8 @@ body {
 	width: 98%;
 	min-width: 600px;
 	background:hsla(26, 100%, 40%, 1.0) url(../images/Surfing.jpg) fixed;
+	background-size: cover;
+	background-position: center center;
 	border: .2em solid #fff;
 	border-radius: 2em;
 	box-shadow: 10px 10px 5px #888888;
@@ -15,7 +17,7 @@ a:link {
 	color:blue;
 }
 a:visited {
-	color:green;
+	color:black;
 }
 a:hover {
 	color:red;
@@ -85,7 +87,7 @@ display:inline;
 	margin-left: 3%;
 	margin-bottom: 5px;
 	padding: 5px;
-	overflow: scroll;
+	overflow: none;
         } 
 #content.clearfix	
 {
@@ -98,13 +100,13 @@ p
 	text-indent:.5%;
 	font: normal normal 400 11pt/1.25 'Courier New', sans-serif;
 	color: rgba(0, 0, 0, 1.0);
-    background: linear-gradient(135deg, #cc5800 0%,#2989d8 50%,#207cca 51%,#2f6fab 100%);
+      background-color:#2F6FAB;
 	text-align: left;
 	margin: .5% auto;
 }
 h1 
 {
-	text-shadow: 6px 2px #000000;
+	text-shadow: 3px 1px #000000;
 	font-family:'Lucida Casual', 'Comic Sans MS';
 	color:#CC5800;
 	background-color:#2F6FAB;
